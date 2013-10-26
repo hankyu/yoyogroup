@@ -1,0 +1,2 @@
+PHP_FLAG output_buffering On
+PHP_FLAG register_globals On

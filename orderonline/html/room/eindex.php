@@ -1,0 +1,113 @@
+<?php
+$PageTitle=" - The Enterpriser Hotel Online Order System";
+include("../include/head.php");
+$_SESSION["sLan"] =	$lan;
+?>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="740">
+    <!-- fwtable fwsrc="ordermenu.png" fwbase="ordermenu.jpg" fwstyle="Dreamweaver" fwdocid = "762039254" fwnested="0" -->
+    <tr>
+      <td><img src="img/spacer.gif" width="11" height="1" border="0" alt="" /></td>
+      <td><img src="img/spacer.gif" width="9" height="1" border="0" alt="" /></td>
+      <td><img src="img/spacer.gif" width="335" height="1" border="0" alt="" /></td>
+      <td><img src="img/spacer.gif" width="331" height="1" border="0" alt="" /></td>
+      <td><img src="img/spacer.gif" width="38" height="1" border="0" alt="" /></td>
+      <td><img src="img/spacer.gif" width="16" height="1" border="0" alt="" /></td>
+      <td><img src="img/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td colspan="6"><img name="ordermenu_r1_c1" src="img/ordermenu_r1_c1.jpg" width="740" height="21" border="0" id="ordermenu_r1_c1" alt="" /></td>
+      <td><img src="img/spacer.gif" width="1" height="21" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><img name="ordermenu_r2_c1" src="img/ordermenu_r2_c1.jpg" width="11" height="93" border="0" id="ordermenu_r2_c1" alt="" /></td>
+      <td colspan="3" rowspan="2" valign="top" background="img/enordermenu_r2_c2.jpg"><div style="text-align:right"><a href="index.php">中文版</a> ｜ <a href="eindex.php">English</a> </div></td>
+      <td><a href="JavaScript:self.close()"><img name="ordermenu_r2_c5" src="img/ordermenu_r2_c5.jpg" width="38" height="26" border="0" id="ordermenu_r2_c5" alt="" /></a></td>
+      <td rowspan="2"><img name="ordermenu_r2_c6" src="img/ordermenu_r2_c6.jpg" width="16" height="93" border="0" id="ordermenu_r2_c6" alt="" /></td>
+      <td><img src="img/spacer.gif" width="1" height="26" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img name="ordermenu_r3_c5" src="img/ordermenu_r3_c5.jpg" width="38" height="67" border="0" id="ordermenu_r3_c5" alt="" /></td>
+      <td><img src="img/spacer.gif" width="1" height="67" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td colspan="6"><img name="ordermenu_r4_c1" src="img/ordermenu_r4_c1.jpg" width="740" height="4" border="0" id="ordermenu_r4_c1" alt="" /></td>
+      <td><img src="img/spacer.gif" width="1" height="4" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="9" background="img/ordermenu_r5_c1.jpg">&nbsp;</td>
+      <td colspan="3" bgcolor="#F0E2C5"><div style="padding-right:50px; text-align:right; vertical-align:bottom">
+	    <input type="button" name="paynote" value=" Type of Payment "  style="background-color:#CC9900; border: 0px solid #FFFFFF; font-size:12px;PADDING-TOP: 5px;PADDING-RIGHT: 1px;PADDING-BOTTOM: 2px;PADDING-LEFT: 1px;" onclick="MM_openBrWindow('../include/order_help.php<?=$lan=="cht"?"":"?ck=e"?>','','scrollbars=yes,width=640,height=580')"/>
+	  &nbsp;<input type="button" name="rentnote" value=" Reservation Terms " style="background-color:#CCCC00; border: 0px solid #FFFFFF;font-size:12px;PADDING-TOP: 5px;PADDING-RIGHT: 1px;PADDING-BOTTOM: 2px;PADDING-LEFT: 1px;" onclick="MM_openBrWindow('../room/eterms.html','','scrollbars=yes,width=640,height=580')"/>&nbsp;
+	  <input type="button" name="query" value=" Reservation Inquiry "  class="input03" onclick="location='../member/emember_area.php'"/>
+	  &nbsp; 
+	  <input type="button" name="query" value=" Cart "  class="input03" onclick="location='../room/ecart_list.php'"/>
+	  &nbsp; 
+	  <input type="button" name="query" value=" Room List "  class="input03" onclick="location='../room/eindex.php'"/></div>
+	    <div>
+	  <img src="img/square.gif" width="15" height="13" align="absmiddle" />Order Steps<img src="img/square.gif" width="15" height="13" align="absmiddle" />
+	    <br />
+	    1.Select Room Type</a>  <img src="img/arrow.gif" width="12" height="10" align="absmiddle" />   2.Select Date  <img src="img/arrow.gif" width="12" height="10" align="absmiddle" />   3.Reservation Terms  <img src="img/arrow.gif" width="12" height="10" align="absmiddle" />   4.Order Information  <img src="img/arrow.gif" width="12" height="10" align="absmiddle" />  <br /> 
+	    5.Confirm Order  <img src="img/arrow.gif" width="12" height="10" align="absmiddle" />   6.Reservation Inquiry	  </div>	 
+		<div>
+		<img src="img/square.gif" width="15" height="13" align="absmiddle" />Instruction
+<img src="img/square.gif" width="15" height="13" align="absmiddle" /></div>
+<div>
+<table border="1" cellspacing="0" bordercolor="#666666" cellpadding="1" width="674" align="center">
+  <tbody>
+    <tr>
+      <td width="668"><p>1.First, select the room type you need.<br />
+        2.Enter detail page, and click the calendar date to select your check-in date.<br />
+        3.The room with date will add to cart and show below calendar. You can modify quantity by using drop-down list.<br />
+          4.“Not Ready”means no rooms available of the date.<br />
+          5.Click checkout button if you complete reservation request list. <br />
+      6.Fill all blanks related booking and submit.<br />
+	  7.After submitting your reservation request, you will receive an e-mail with reservation details. Also, you can check reservation result via reservation inquiry page.
+	  </p>
+        </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+	  </td>
+      <td rowspan="9" background="img/ordermenu_r5_c6.jpg">&nbsp;</td>
+      <td><img src="img/spacer.gif" width="1" height="37" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td colspan="3" rowspan="7" bgcolor="#F0E2C5" valign="top">
+	  <?PHP
+	  $lan="eng";
+	  include("../include/room_list.php");
+	  ?>	  <p align="center">&nbsp;</p></td>
+      <td><img src="img/spacer.gif" width="1" height="122" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="img/spacer.gif" width="1" height="25" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="img/spacer.gif" width="1" height="35" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="img/spacer.gif" width="1" height="39" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="img/spacer.gif" width="1" height="26" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="img/spacer.gif" width="1" height="33" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="img/spacer.gif" width="1" height="305" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td colspan="3" bgcolor="#F0E2C5">&nbsp;</td>
+      <td><img src="img/spacer.gif" width="1" height="26" border="0" alt="" /></td>
+    </tr>
+    <tr>
+      <td colspan="6"><img name="ordermenu_r14_c1" src="img/ordermenu_r14_c1.jpg" width="740" height="20" border="0" id="ordermenu_r14_c1" alt="" /></td>
+      <td><img src="img/spacer.gif" width="1" height="20" border="0" alt="" /></td>
+    </tr>
+  </table>
+<?
+include("../include/foot.php");
+?>

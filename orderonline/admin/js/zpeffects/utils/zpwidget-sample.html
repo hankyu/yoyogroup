@@ -1,0 +1,61 @@
+<html>
+<head>
+<script type="text/javascript" src="utils.js"></script>
+<script type="text/javascript" src="transport.js"></script>
+<script type="text/javascript" src="zpwidget.js"></script>
+</head>
+<body>
+<script>
+
+/**
+ * Constructor.
+ *
+ * \param objArgs [object] object properies.
+ */
+Zapatec.ChildWidget = function(objArgs) {
+  // User configuration
+  this.config = {};
+  // Initialize object
+  if (arguments.length > 0) this.init(objArgs);
+};
+
+// Inherit parent class
+Zapatec.ChildWidget.prototype = new Zapatec.Widget();
+Zapatec.ChildWidget.SUPERclass = Zapatec.Widget.prototype;
+
+/**
+ * Initializes object.
+ *
+ * \param objArgs [string] user configuration.
+ */
+Zapatec.ChildWidget.prototype.init = function(objArgs) {
+  // Define config options
+  this.config.option1 = 'default value';
+  this.config.option2 = 'default value';
+  // Call parent init
+  Zapatec.ChildWidget.SUPERclass.init.call(this, objArgs);
+  // Continue initialization
+  // ...
+  // Call parent method to load data from the specified source
+  this.loadData();
+  // ...
+};
+
+// Source object
+var objSource = {
+  // Data in JSON format
+};
+
+// Initialize ChildWidget
+var myWidget = new Zapatec.ChildWidget({
+  source: objSource,
+  sourceType: 'json',
+  option1: 'new value'
+});
+
+// Test
+alert(myWidget.config.option1 + '\n' + myWidget.config.option2);
+
+</script>
+</body>
+</html>

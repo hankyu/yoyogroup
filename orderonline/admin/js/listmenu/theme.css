@@ -1,0 +1,72 @@
+.ThemeIEMenu {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; CURSOR: default; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: verdana, arial, sans-serif; WHITE-SPACE: nowrap
+}
+.ThemeIESubMenuTable {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; CURSOR: default; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: verdana, arial, sans-serif; WHITE-SPACE: nowrap
+}
+.ThemeIEMenu {
+	/*BACKGROUND-COLOR: #f7f3ef;*/
+}
+.ThemeIESubMenu {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; Z-INDEX: 100; FILTER: progid:DXImageTransform.Microsoft.Shadow(color=#848A84, Direction=135, Strength=4); VISIBILITY: hidden; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; POSITION: absolute
+}
+.ThemeIESubMenuTable {
+	BORDER-RIGHT: #adaa9c 0px solid; BORDER-TOP: #adaa9c 1px solid; BORDER-LEFT: #adaa9c 1px solid; BORDER-BOTTOM: #adaa9c 1px solid; BACKGROUND-COLOR: white
+}
+.ThemeIESubMenuTable TD {
+	WHITE-SPACE: nowrap
+}
+.ThemeIEMainItem {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; BORDER-TOP: 0px; WHITE-SPACE: nowrap; FONT-WEIGHT: BOLD;
+}
+.ThemeIEMainItemHover {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; BORDER-TOP: 0px; WHITE-SPACE: nowrap; FONT-WEIGHT: BOLD;
+}
+.ThemeIEMainItemActive {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; BORDER-TOP: 0px; WHITE-SPACE: nowrap
+}
+.ThemeIEMenuItem {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; BORDER-TOP: 0px; WHITE-SPACE: nowrap
+}
+.ThemeIEMenuItemHover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; BORDER-TOP: 0px; WHITE-SPACE: nowrap
+}
+.ThemeIEMenuItemActive {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; BORDER-TOP: 0px; WHITE-SPACE: nowrap
+}
+.ThemeIEMainItemHover {
+	COLOR: Black; /*BACKGROUND-COLOR: #3169c6*/
+}
+.ThemeIEMainItemActive {
+	COLOR: gray; /*BACKGROUND-COLOR: #c4ddff*/
+}
+.ThemeIEMenuItemHover {
+	COLOR: white; BACKGROUND-COLOR: #c4ddff
+}
+.ThemeIEMenuItemActive {
+	COLOR: white; BACKGROUND-COLOR: #c4ddff
+}
+.ThemeIEMenuSplit {
+	BORDER-TOP: #adaa9c 1px solid; MARGIN-TOP: 0px; MARGIN-BOTTOM: 1px; OVERFLOW: hidden; HEIGHT: 1px
+}
+.ThemeIEMenuVSplit {
+	BORDER-RIGHT: #adaa9c 1px solid; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 1px
+}
+.ThemeIEMenuItem IMG.seq1 {
+	DISPLAY: inline
+}
+.ThemeIEMenuItemHover seq2 {
+	DISPLAY: inline
+}
+.ThemeIEMenuItemActive seq2 {
+	DISPLAY: inline
+}
+.ThemeIEMenuItem .seq2 {
+	DISPLAY: none
+}
+.ThemeIEMenuItemHover .seq1 {
+	DISPLAY: none
+}
+.ThemeIEMenuItemActive .seq1 {
+	DISPLAY: none
+}

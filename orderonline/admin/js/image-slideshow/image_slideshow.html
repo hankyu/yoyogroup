@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Image slideshow</title>
+	<link rel="stylesheet" href="css/image-slideshow.css" type="text/css">
+	<script type="text/javascript" src="js/image-slideshow.js">
+   	/***********************************************************************************************
+	
+	Copyright (c) 2005 - Alf Magne Kalleland post@dhtmlgoodies.com
+	
+	UPDATE LOG:
+	
+	March, 10th, 2006 : Added support for a message while large image is loading
+	
+	Get this and other scripts at www.dhtmlgoodies.com
+	
+	You can use this script freely as long as this copyright message is kept intact.
+	
+	***********************************************************************************************/ 
+ 
+	
+	</script>
+</head>
+<body>
+<div id="dhtmlgoodies_slideshow">
+	<div id="previewPane">
+		<img src="images/image1_big.jpg">
+		<span id="waitMessage">Loading image. Please wait</span>	
+		<div id="largeImageCaption">This is the caption of image number 1</div>
+	</div>
+	<div id="galleryContainer">
+		<div id="arrow_left"><img src="images/arrow_left.gif"></div>
+		<div id="arrow_right"><img src="images/arrow_right.gif"></div>
+		<div id="theImages">
+				<!-- Thumbnails -->
+				<a href="#" onclick="showPreview('images/image1_big.jpg','1');return false"><img src="images/image1.jpg"></a>		
+				<a href="#" onclick="showPreview('images/image2_big.jpg','2');return false"><img src="images/image2.jpg"></a>		
+				<a href="#" onclick="showPreview('images/image3_big.jpg','3');return false"><img src="images/image3.jpg"></a>		
+				<a href="#" onclick="showPreview('images/image4_big.jpg','4');return false"><img src="images/image4.jpg"></a>		
+				<a href="#" onclick="showPreview('images/image5_big.jpg','5');return false"><img src="images/image5.jpg"></a>		
+				<a href="#" onclick="showPreview('images/image6_big.jpg','6');return false"><img src="images/image6.jpg"></a>		
+				<a href="#" onclick="showPreview('images/image7_big.jpg','7');return false"><img src="images/image7.jpg"></a>		
+				<a href="#" onclick="showPreview('images/image8_big.jpg','8');return false"><img src="images/image8.jpg"></a>	
+				<!-- End thumbnails -->
+				
+				<!-- Image captions -->	
+				<div class="imageCaption">This is the caption of image number 1</div>
+				<div class="imageCaption">This is the caption of image number 2</div>
+				<div class="imageCaption">This is the caption of image number 3</div>
+				<div class="imageCaption">This is the caption of image number 4</div>
+				<div class="imageCaption">This is the caption of image number 5</div>
+				<div class="imageCaption">This is the caption of image number 6</div>
+				<div class="imageCaption">This is the caption of image number 7</div>
+				<div class="imageCaption">This is the caption of image number 8</div>
+				<!-- End image captions -->
+				
+				<div id="slideEnd"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,495 @@
+/*--網頁捲軸----------------------------------------------------------*/
+body{
+	SCROLLBAR-3DLIGHT-COLOR:    #f9f9ee; /*左上外框邊緣*/
+	SCROLLBAR-HIGHLIGHT-COLOR:  #FFFFFF; /*左上外框內綠*/
+	SCROLLBAR-ARROW-COLOR:      #babaa4; /*箭頭*/
+	SCROLLBAR-BASE-COLOR:       #f9f9ee; /*不知作用*/
+	SCROLLBAR-DARKSHADOW-COLOR: #babaa4; /*右下外框邊緣*/ 
+	SCROLLBAR-SHADOW-COLOR:     #f9f9ee; /*右下外框內綠*/
+	SCROLLBAR-FACE-COLOR:       #f9f9ee; /*面板*/ 
+	SCROLLBAR-TRACK-COLOR:      #f9f9ee; /*面板底色*/ 
+
+/*--網頁內容設定-----------------------------------------------------*/
+	/*background-color: #FFFFCC;;                       /*背景色*/
+	background-image: url(../images/bg.gif);        /*背景圖*/
+	/*background-attachment:fixed;                     背景圖不動*/
+	/*background-repeat:no-repeat;                     /*背景圖不重覆*/
+    /*color:#494848;*/
+	/*font-family: "Arial", "Helvetica", "sans-serif"; /*字型*/
+	/*font-size: 9pt;                                  /*字大小*/
+	/*line-height: 14pt;                               /*行距*/
+	/*letter-spacing:1pt;                              字距*/
+	/*overflow-x:hidden;                               不會出現橫拉把，x改成y的話就不會出現直拉把*/
+	/*margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;*/
+	}
+
+
+/*--表格字型、大小、行距設定(同body設定即可----------------------------*/
+.table1 {
+	/*border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	*/
+}
+
+td {
+	/*font-size: 9pt;*/
+    /*line-height: 16pt;*/
+}
+
+.title {
+	color: #21536A;
+	font-size: 10pt;
+	line-height: 16pt;
+	border-top-color: #FFFFFF;
+	border-left-color: #F2F2F2;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	background-image: url(../images/topbar1_bg.gif);
+}
+.btn_EditImg
+{
+	background-image:url(../images/xfun_edit.gif); 
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	padding:2px 0px 2px 0px; 
+	border:0px;
+	vertical-align:middle; 
+	width:19px;
+	height:19px;
+}
+
+.btn_DeleteImg
+{
+	background-image:url(../images/xfun_delete.gif); 
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	padding:2px 0px 2px 0px; 
+	border:0px;
+	vertical-align:middle; 
+	width:19px;
+	height:19px;
+}
+
+.btn_UpdateImg
+{
+	background-image:url(../images/xfun_update.gif); 
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	padding:2px 0px 2px 0px; 
+	border:0px;
+	vertical-align:middle; 
+	width:19px;
+	height:19px;
+}
+
+.btn_CancelImg
+{
+	background-image:url(../images/xfun_cancel.gif); 
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	padding:2px 0px 2px 0px; 
+	border:0px;
+	vertical-align:middle; 
+	width:19px;
+	height:19px;
+}
+.btn_Calendar
+{
+	background-image:url(../images/calendar0.gif); 
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	padding:2px 0px 2px 0px; 
+	cursor:pointer;
+	border:0px;
+	vertical-align:middle; 
+	width:18px;
+	height:17px;
+}
+.btn_AddImageFileImg
+{
+	background-image:url(../images/add_picture.gif); 
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	padding:2px 0px 2px 0px; 
+	cursor:pointer;
+	border:0px;
+	vertical-align:middle; 
+	width:16px;
+	height:16px;
+}
+.title2 {
+	color: #21536A;
+	font-size: 10pt;
+	line-height: 16pt;
+	border-top-color: #FFFFFF;
+	border-left-color: #F2F2F2;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	background-image: url(../images/topbar_bg.gif);
+}
+.td2 {
+	color: #21536A;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #E8F0EF;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td3 {
+	color: #ffffff;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #99cc33;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td33 {
+	color: #ffffff;
+	font-size: 10pt;
+	line-height: 16pt;
+	background-color: #99cc33;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td1 {
+	color: #21536A;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #D5E3E1;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td4 {
+	color: #ffffff;
+	font-size: 11pt;
+	line-height: 16pt;
+	background-color: #779fcf;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td41 {
+	color: #ffffff;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #779fcf;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td5 {
+	color: #ffffff;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #990000;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td6 {
+	color: #5D6810;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #E6EEA0;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td7 {
+	color: #21536A;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #ffffcc;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td8 {
+	color: #ffffff;
+	font-size: 11pt;
+	line-height: 16pt;
+	background-color: #666666;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td9 {
+	color: #ffffff;
+	font-size: 11pt;
+	line-height: 16pt;
+	background-color: #ff6600;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td10 {
+	color: #301B00;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #ffffcc;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td11 {
+	color: balck;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #e4e4e4;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.td12 {
+	color: #333333;
+	font-size: 9pt;
+	line-height: 16pt;
+	background-color: #f5f5f5;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+td{
+    color:#494848;
+	font-family: "Arial", "Helvetica", "sans-serif"; /*字型*/
+	font-size: 9pt;                                  /*字大小*/
+	/*line-height: 14pt;                               /*行距*/
+	/*letter-spacing:1pt;                              字距*/
+}
+
+/*--底圖背景---------------------------------------------------------------------------------------*/
+.bg1000{background-position:100% 0; background-repeat:no-repeat}/*--底圖不重覆置上*/
+.bg0100{background-position:0 100%; background-repeat:no-repeat}/*--底圖不重覆置上*/
+.bg00{background-position:0 0; background-repeat:no-repeat}/*--底圖不重覆置上*/
+.bg100100{background-position:100% 100%; background-repeat:no-repeat}/*--底圖不重覆置上*/
+
+
+/*--連結設定-----------------------------------------------------------*/
+/*a:link    {  color: #993300;text-decoration: none}      /*一般連結*/
+/*a:visited {  color:#666666; text-decoration: none}      /*參觀過的連結*/
+/*a:hover   {  color: #999966;text-decoration: underline} /*當滑鼠移到連結上*/
+/*a:hover {  color: #9A0000; text-decoration: underline;position:relative;top:-1px;right:1px;}當滑鼠移到連結上會往上跳一下*/
+
+.b:link    {  color: #ffffff;text-decoration: none}      /*一般連結*/
+.b:visited {  color:#ffffff; text-decoration: none}      /*參觀過的連結*/
+.b:hover   {  color: #d8ff8f;text-decoration: underline} /*當滑鼠移到連結上*/
+
+.c:link    {  color: #d9f5ae;text-decoration: none}      /*一般連結*/
+.c:visited {  color: #d9f5ae; text-decoration: none}      /*參觀過的連結*/
+.c:hover   {  color: #003401;text-decoration: underline} /*當滑鼠移到連結上*/
+
+.bb:link    {  color: #342800;text-decoration: none}      /*一般連結*/
+.bb:visited {  color: #342800; text-decoration: none}      /*參觀過的連結*/
+.bb:hover   {  color: #fbdb6a;text-decoration: underline} /*當滑鼠移到連結上*/
+
+.cc:link    {  color: #fffabf;text-decoration: none}      /*一般連結*/
+.cc:visited {  color: #fffabf; text-decoration: none}      /*參觀過的連結*/
+.cc:hover   {  color: #ffffff;text-decoration: underline} /*當滑鼠移到連結上*/
+
+.d:link    {  color: #4f3307;text-decoration: none}      /*一般連結*/
+.d:visited {  color: #4f3307; text-decoration: none}      /*參觀過的連結*/
+.d:hover   {  color: #995f05;text-decoration: underline} /*當滑鼠移到連結上*/
+
+
+/*--把字改成直行-------------------------------------------------------*/
+.wordstraight{writing-mode:tb-rl}
+
+/*--立體字-------------------------------------------------------------*/
+.Ltable01 { filter: DropShadow(Color=#ffffff, OffX=1, OffY=1)}
+.Lword0101 {
+	color: #4C1A36;
+}
+.Lword0102 {
+	color: #660033;
+}
+.Ltable02 { filter: DropShadow(Color=#FFE4E5, OffX=1, OffY=1)}
+.Lword0201 {
+	color: #9D080D;
+}
+.Ltable03 { filter: DropShadow(Color=#EEEEEE, OffX=1, OffY=1)}
+.Lword0301 {
+	color: #DD0202;
+}
+
+/*--陰影字和發光字只能使用其中一個，而且只能使用一次*/
+/*--陰影字-------------------------------------------------------------*/
+.wordshadow01{filter:shadow(color=#CEF0FD,direction=110);color:#000000} /*-shadow(color是陰影色，direction是陰影角度-*/
+
+/*--發光字-------------------------------------------------------------*/
+.wordlight01{filter:glow(color=#0000FF,strength=2); color:#333333}     /*-白字外色glow(color是發光的色，strength是發光大小-*/
+.wordlight02{filter:glow(color=#48F850,strength=2); color:#000000}     /*-黑字外色glow(color是發光的色，strength是發光大小-*/
+
+
+/*--設定form不會有高度-------------------------------------------------*/
+form{margin-top: 0; margin-bottom: 0}
+
+/*--按鈕設定（顏色按鈕）-----------------------------------------------*/
+.submit01{FONT-SIZE: 12px;padding-left:1px;padding-right:1px;padding-top:1px;padding-bottom:2px;height:20;background-color:#9D080D;color:#FFFFFF}
+/*--按鈕設定（顏色按鈕-虛線按鈕）--*/
+.submit02{FONT-SIZE: 12px;padding-left:1px;padding-right:1px;padding-top:1px;padding-bottom:2px;height:20;background-color:#6DCFF6;color:#000000; border: 1 dotted #2E3092;}
+/*--按鈕設定（圖片按鈕）-----------------------------------------------*/
+.input02 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url(../images/inpbg2.gif);padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input03 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg3.gif");padding-right:1px;padding-top:5px;padding-bottom:2px;cursor:pointer}
+.input04 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url(../images/inpbg4.gif);padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input05 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg5.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input06 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg6.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input07 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg7.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input08 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg8.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input09 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg9.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input10 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg10.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input11 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbg11.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+.input12 {FONT-WEIGHT: normal; FONT-SIZE: 12px; border: 0 solid #4E8A1B;color:#4C1A36;padding-left:1px;background-image:url("images/inpbgsearch.gif");padding-right:1px;padding-top:5px;padding-bottom:2px}
+
+
+/*--設定下拉式選單-------------------------------------------------*/
+.option01{BACKGROUND-COLOR:#FFF1E1;COLOR:#CC0033;}
+.option02{BACKGROUND-COLOR:#FEFCE0;COLOR:#993300;}
+.option03{BACKGROUND-COLOR:#EFEFF7;BORDER:1 SOLID #EFEFF7;COLOR:#000066;}
+.option04{BACKGROUND-COLOR:#FFF2DB;BORDER:1 SOLID #F7E4E4;COLOR:#BB7700;}
+
+
+/*--填寫欄位設定-------------------------------------------------*/
+.inputkeyword0
+{
+BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset;
+color:#00666A;font-size:9pt;}
+.inputkeyword01{
+line-height:12pt;
+color:#000000;
+background-color:#FFFFFF; 
+border-width:1px; 
+border-style:solid;
+border-color:#4C1A36;
+	SCROLLBAR-3DLIGHT-COLOR:    #FFFFFF; /*左上外框邊緣*/
+	SCROLLBAR-HIGHLIGHT-COLOR:  #FFFFFF; /*左上外框內綠*/
+	SCROLLBAR-ARROW-COLOR:      #4C1A36; /*箭頭*/
+	SCROLLBAR-BASE-COLOR:       #FFFFFF; /*不知作用*/
+	SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF; /*右下外框邊緣*/ 
+	SCROLLBAR-SHADOW-COLOR:     #FFFFFF; /*右下外框內綠*/
+	SCROLLBAR-FACE-COLOR:       #FFFFFF; /*面板*/ 
+	SCROLLBAR-TRACK-COLOR:      #FFFFFF; /*面板底色*/ 
+}
+
+.inputkeyword02{
+line-height:12pt;
+color:#2E3092;
+background-color:#EAF8FE; 
+border-width:1px; 
+border-style:dotted;
+border-color:#02045D;
+	SCROLLBAR-FACE-COLOR:#EAF8FE;/*面板*/ 
+	SCROLLBAR-HIGHLIGHT-COLOR: #EAF8FE;/*右上外框*/
+	SCROLLBAR-SHADOW-COLOR: #EAF8FE;/*左下外框*/
+	SCROLLBAR-3DLIGHT-COLOR: #EAF8FE; /*右上外框邊緣*/
+	SCROLLBAR-ARROW-COLOR: #00114B; /*箭頭*/
+	SCROLLBAR-TRACK-COLOR: #EAF8FE;/*面板底色*/ 
+	SCROLLBAR-DARKSHADOW-COLOR: #EAF8FE; 
+	SCROLLBAR-BASE-COLOR: #EAF8FE;
+}
+
+
+/*--直線設定------------------------------------------------------------*/
+.line01{border: 1px solid  #9D080D} /*--實線*/
+.line02{border: 1px dotted #666666}/*--虛線*/
+.line03{border: 1px dotted #FFFFFF}/*--虛線*/
+
+
+/*--圖外框--------------------------------------------------------------*/
+.imageborder{border: 1px solid  #686767} /*--實線*/
+
+
+/*--各式字型大小--------------------------------------------------------*/
+.style1 {font-size: 12pt;color:#7C042C;}
+.style2 {font-size: 9pt;color:#7C042C;}
+.style3 {font-size: 12pt;color:#7C0472;}
+.style4 {font-size: 9pt;color:#7C0472;}
+.style5 {color:#686767;}
+.style6 {color:#00714A;}
+.style7 {color:#DADADA;}
+.style8 {color:#DD003C;}
+.style9 {color:#FFFFFF;}
+.style10{font-size: 11pt;color:#7E1550;}
+.style11 {color: #535D00}
+.style12 {color: #006255;font-size:11px;line-height:14pt;}
+.style13 {color: #3E342B;font-size:9pt;line-height:18pt;}
+
+.word1{font-size: 9pt; COLOR:#993300;}
+.word2{font-size: 9pt; color:black}
+.word3{font-size: 11pt; color:yellow}
+.word4{font-size: 11pt; color:#990000}
+.word5{font-size: 9pt; color:#990000}
+.word6{color:green}
+.word7{font-size: 9pt; color:#ffffff}
+.word8{color:yellow}
+.word9 {color: #FFFFFF}
+.word10 {color: #3399CC}
+.word11 {
+	color: #000000;
+	letter-spacing:2pt;
+}
+.t4 {
+	COLOR: #21536a; TEXT-DECORATION: line-through;font-size: 10pt;
+}
